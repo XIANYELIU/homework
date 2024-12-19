@@ -1,0 +1,137 @@
+/*整体样式*/
+body {
+	line-height: 180%;
+	background: #FFF;
+	font-size: 17px;
+	padding: 0px;
+	margin: 0px;
+	font-family: airal;
+	color: #000;
+}
+/*链接*/
+a:link, a:visited {
+	color: #0080f2;
+	text-decoration: none
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #005eb2;
+}
+/*网页尺寸*/
+.wrapper {
+	margin: 0px auto;
+	width: 1200px;
+}
+/*所有页面中间内容的边框*/
+.border {
+	border: 1px solid #ccc;
+	padding: 12px;
+	box-sizing: border-box;
+}
+/*导航栏*/
+.menu {
+	background: url(../images/bg01.jpg) #f0f8ff;
+	background-size: cover;
+	height: 130px;
+}
+/*网站名称*/
+.menu h1 {
+	color: #fff;
+	font-size: 38px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	line-height: 58px;
+	padding-top: 8px;
+}
+.menu span {
+	display: block;
+	text-align: center;
+	padding: 18px 10px;
+}
+.menu span a {
+	color: #fff;
+	font-size: 22px;
+	padding: 6px 17px;
+	display: inline-block;
+}
+.menu span a:hover {
+	background: #0058a6;
+	border-radius: 8px;
+}
+/*标题样式*/
+h2 {
+	colo: #0058a6;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 38px;
+	padding-top: 18px;
+}
+/*可爱的大熊猫图片*/
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	width: 100%;
+	padding-left: 8px;
+}
+li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+	padding-right: 18px;
+	margin-bottom: 18px;
+}
+li img {
+	width: 100%;
+	margin: 0px auto;
+	height: 390px;
+	object-fit: cover;
+	vertical-align: middle;
+}
+li {
+	display: inline-block;
+	width: 48%;
+}
+/*生存环境*/
+.imgright {
+	float: right;
+	margin: 0px 0px 30px 60px;
+	width: 420px;
+	height: auto;
+	border: 1px dashed #ddd;
+}
+/*食用物品*/
+
+.shiyongwupin {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+}
+.shiyongwupin th, .shiyongwupin td {
+	border: 1px solid #ddd;
+	padding: 15px;
+	text-align: left;
+}
+.shiyongwupin th {
+	background-color: #508fc9;
+	color: white;
+}
+/*注册页面*/
+
+form {
+	text-align: center;
+	padding-top: 100px;
+}
+/*底部版权*/
+.dibu {
+	text-align: center;
+	color: #777777;
+	padding: 38px;
+	background: #f1f1f1;
+	margin-top: 78px;
+}
+.dibu a {
+	text-decoration: underline;
+}
